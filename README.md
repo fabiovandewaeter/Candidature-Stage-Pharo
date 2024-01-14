@@ -8,12 +8,15 @@ Les classes suivantes se trouvent dans le package Matrix :
 1) Matrix:
    
 Représente les matrices traditionnelles
+
 3) SparseMatrix:
    
 Hérite de Matrix et représente les matrices creuses en forme compacte
+
 4) MatrixTest:
    
 Contient les différents tests de la classe Matrix
+
 5) SparseMatrixTest:
    
 Contient les tests de la classe SparseMatrix
@@ -47,6 +50,7 @@ On peut aussi obtenir sa forme compacte en temps que SparseMatrix, grâce à `m 
 [3 5 3 4 2 3]
 [3 4 5 7 2 6]
 ```
+
 2) SparseMatrix:
    
 On construit la matrice de la même manière après l'avoir créer grâce à `sm := SparseMatrix rows:4 columns:5.`
