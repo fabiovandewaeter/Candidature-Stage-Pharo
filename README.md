@@ -9,15 +9,15 @@ Les classes suivantes se trouvent dans le package Matrix :
    
 Représente les matrices traditionnelles
 
-3) SparseMatrix:
+2) SparseMatrix:
    
 Hérite de Matrix et représente les matrices creuses en forme compacte
 
-4) MatrixTest:
+3) MatrixTest:
    
 Contient les différents tests de la classe Matrix
 
-5) SparseMatrixTest:
+4) SparseMatrixTest:
    
 Contient les tests de la classe SparseMatrix
 ### Exemple
