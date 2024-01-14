@@ -1,5 +1,6 @@
 accessing
 at: aRow at: aColumn put: aValue
+	"Put aValue in the aRow row and aColumn column"
 	1 to: (rowsArray size) do:
 		[ :index | (rowsArray at: index) = aRow ifTrue:
 			[(columnsArray at: index) = aColumn ifTrue:

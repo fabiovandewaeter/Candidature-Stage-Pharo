@@ -1,5 +1,6 @@
 accessing
 asMatrix
+	"Convert myself into a Matrix"
 	| matrix |
 	matrix := Matrix rows: rows columns: columns.
 	1 to: rows do:

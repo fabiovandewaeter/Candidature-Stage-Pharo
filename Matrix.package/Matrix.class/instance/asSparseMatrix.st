@@ -1,5 +1,6 @@
 accessing
 asSparseMatrix
+	"Convert myself into a SparseMatrix"
 	| sparseMatrix |
 	sparseMatrix := SparseMatrix rows: rows columns: columns.
 	1 to: rows do:
