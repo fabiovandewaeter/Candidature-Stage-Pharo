@@ -4,4 +4,4 @@ rows: numberOfRows columns: numberOfColumns
 	^ self new
 	rows: numberOfRows;
 	columns: numberOfColumns;
-	values: ((Array new: numberOfRows) atAllPut: ((Array new: numberOfColumns) atAllPut: 0; yourself))
+	values: ((Array new: numberOfRows) collect: [:each|((Array new: numberOfColumns) collect: [:eachNew|0])])

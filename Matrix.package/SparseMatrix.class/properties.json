@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Matrix",
+	"category" : "Matrix",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SparseMatrix",
+	"type" : "normal"
+}
