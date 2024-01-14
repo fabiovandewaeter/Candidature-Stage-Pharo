@@ -44,7 +44,7 @@ Cela donne la matrice traditionnelle suivante :
 0 2 6 0 0 ]
 ```
 
-On peut aussi obtenir sa forme compacte en temps que SparseMatrix, grâce à `m asSparseMatrix.`, ce qui donne :
+On peut aussi obtenir sa forme compacte en tant que SparseMatrix, grâce à `m asSparseMatrix.`, ce qui donne :
 ```
 [1 1 2 2 4 4]
 [3 5 3 4 2 3]
