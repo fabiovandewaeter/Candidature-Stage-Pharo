@@ -5,23 +5,15 @@
 Créer un programme qui permet d’encoder une matrice creuse https://www.geeksforgeeks.org/sparse-matrix-representation/ à partir d’une matrice sous sa forme traditionnelle. Vous utiliserez la méthode qui utilise des tableaux. Ce programme doit créer la représentation de la matrice creuse à partir de sa représentation traditionnelle sous forme de tableau de tableaux, et inversement, créer la représentation traditionnelle à partir de la représentation en matrice creuse.
 ### Classes et package
 Les classes suivantes se trouvent dans le package Matrix :
-1) Matrix:
-   
-Représente les matrices traditionnelles
+1) **Matrix:** Représente les matrices traditionnelles
 
-2) SparseMatrix:
-   
-Hérite de Matrix et représente les matrices creuses en forme compacte
+2) **SparseMatrix:** Hérite de Matrix et représente les matrices creuses en forme compacte
 
-3) MatrixTest:
-   
-Contient les différents tests de la classe Matrix
+3) **MatrixTest:** Contient les différents tests de la classe Matrix
 
-4) SparseMatrixTest:
-   
-Contient les tests de la classe SparseMatrix
+4) **SparseMatrixTest:** Contient les tests de la classe SparseMatrix
 ### Exemple
-1) Matrix:
+1) **Matrix:**
 
 On peut créer une matrice 4x5 ainsi :
 ```
@@ -51,8 +43,8 @@ On peut aussi obtenir sa forme compacte en tant que SparseMatrix, grâce à `m a
 [3 4 5 7 2 6]
 ```
 
-2) SparseMatrix:
+2) **SparseMatrix:**
    
-On construit la matrice de la même manière après l'avoir créer grâce à `sm := SparseMatrix rows:4 columns:5.`
+On construit la matrice de la même manière, après l'avoir créée grâce à `sm := SparseMatrix rows:4 columns:5.`
 ### Tests
 MatrixTest a 5 tests verts et SparseMatrixTest en à 6.
