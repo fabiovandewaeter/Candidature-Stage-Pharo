@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packageName",
-		"classes"
+		"name",
+		"senders"
 	],
-	"name" : "PharoDoc",
+	"name" : "PharoDocSelector",
 	"type" : "normal"
 }

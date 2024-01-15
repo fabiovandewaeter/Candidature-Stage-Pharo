@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "PharoDoc",
+	"super" : "TestCase",
+	"category" : "PharoDoc-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packageName",
-		"classes"
+		"class"
 	],
-	"name" : "PharoDoc",
+	"name" : "PharoDocClassesTest",
 	"type" : "normal"
 }

@@ -6,9 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packageName",
-		"classes"
+		"name",
+		"superClasses",
+		"subClasses",
+		"instVariables",
+		"selectors"
 	],
-	"name" : "PharoDoc",
+	"name" : "PharoDocClasses",
 	"type" : "normal"
 }
