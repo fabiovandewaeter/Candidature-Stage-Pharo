@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
+		"selector",
 		"senders"
 	],
 	"name" : "PharoDocSelector",

@@ -6,4 +6,5 @@ rows: numberOfRows columns: numberOfColumns
 	columns: numberOfColumns;
 	rowsArray: OrderedCollection new;
 	columnsArray: OrderedCollection new;
-	values: OrderedCollection new
+	values: OrderedCollection new;
+	yourself

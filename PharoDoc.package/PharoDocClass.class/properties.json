@@ -6,12 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"superClasses",
+		"className",
+		"superClass",
 		"subClasses",
 		"instVariables",
 		"selectors"
 	],
-	"name" : "PharoDocClasses",
+	"name" : "PharoDocClass",
 	"type" : "normal"
 }

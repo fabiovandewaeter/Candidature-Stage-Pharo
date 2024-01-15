@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packageName",
+		"package",
 		"classes"
 	],
 	"name" : "PharoDoc",
