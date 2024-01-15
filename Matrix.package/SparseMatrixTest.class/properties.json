@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Matrix",
+	"category" : "Matrix-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
