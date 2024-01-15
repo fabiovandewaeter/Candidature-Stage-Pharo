@@ -4,7 +4,7 @@
 ### Consigne
 Créer un programme qui permet d’encoder une matrice creuse https://www.geeksforgeeks.org/sparse-matrix-representation/ à partir d’une matrice sous sa forme traditionnelle. Vous utiliserez la méthode qui utilise des tableaux. Ce programme doit créer la représentation de la matrice creuse à partir de sa représentation traditionnelle sous forme de tableau de tableaux, et inversement, créer la représentation traditionnelle à partir de la représentation en matrice creuse.
 ### Classes et package
-Les classes suivantes se trouvent dans le package Matrix :
+Les classes suivantes se trouvent dans le package Matrix et les tests dans Matrix-Tests :
 1) **Matrix:** Représente les matrices traditionnelles
 
 2) **SparseMatrix:** Hérite de Matrix et représente les matrices creuses en forme compacte
