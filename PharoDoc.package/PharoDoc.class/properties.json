@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"package",
-		"classes"
+		"packageName",
+		"classesArray"
 	],
 	"name" : "PharoDoc",
 	"type" : "normal"

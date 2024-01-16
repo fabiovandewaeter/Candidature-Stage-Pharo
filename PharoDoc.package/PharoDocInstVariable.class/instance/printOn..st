@@ -1,7 +1,7 @@
 accessing
 printOn: aStream
 	aStream
-	nextPutAll: 'instVariable : ',name;
+	nextPutAll: 'instVariable : ',varName;
 	cr;
 	nextPutAll: 'selectors that reference it : ';
 	cr.

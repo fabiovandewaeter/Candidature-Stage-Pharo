@@ -1,6 +1,6 @@
 instance creation
-new: varName from: aClass
+new: aVarName from: aClass
 	^self new
-	name: varName;
-	selectorsThatReference: (aClass whichSelectorsAccess: varName);
+	varName: aVarName;
+	selectorsThatReference: (aClass whichSelectorsAccess: aVarName);
 	yourself

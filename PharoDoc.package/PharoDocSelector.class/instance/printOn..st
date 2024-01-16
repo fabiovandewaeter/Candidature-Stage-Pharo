@@ -1,8 +1,8 @@
 accessing
 printOn: aStream
 	aStream
-		nextPutAll: 'selector : ',selector ;
+		nextPutAll: 'selector : ',selectorName ;
 		cr;
 		nextPutAll: 'senders : ';
 		cr.
-		(senders do: [:each | each printOn: aStream. aStream space. aStream cr]).
+		(sendersArray do: [:each | each printOn: aStream. aStream space. aStream cr]).
