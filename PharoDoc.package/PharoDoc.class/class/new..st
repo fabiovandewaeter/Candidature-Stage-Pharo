@@ -3,6 +3,6 @@ new: aPackageName
 	| aPackage newClasses |
 	aPackage := RPackageOrganizer default packageNamed: aPackageName.
 	^self new
-	packageName: aPackage;
+	thePackage: aPackage;
 	classesArray: (aPackage definedClasses collect: [:class | PharoDocClass new: class]) asArray;
 	yourself

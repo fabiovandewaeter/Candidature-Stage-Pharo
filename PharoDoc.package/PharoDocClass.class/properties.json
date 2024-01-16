@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"className",
+		"theClass",
 		"superClass",
 		"subClasses",
 		"instVariables",

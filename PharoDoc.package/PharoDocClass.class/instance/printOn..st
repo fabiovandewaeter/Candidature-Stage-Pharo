@@ -1,7 +1,7 @@
 accessing
 printOn: aStream
 	aStream
-	nextPutAll: 'Class : ',className name;
+	nextPutAll: 'Class : ',theClass name;
 	cr;
 	nextPutAll: 'SuperClass : ',superClass name;
 	cr;
