@@ -1,10 +1,13 @@
 accessing
 asHTMLString
-	| subC instV selectorsA |
+	| subC instV selectorsA header |
 	subC := subClasses inject: '' into: [ :concat :elem | concat,'<li>',elem name,'</li>' ].
 	instV := instVariables inject: '' into: [ :concat :elem | concat, elem asHTMLString ].
 	selectorsA := selectorsArray inject: '' into: [ :concat :elem | concat, elem asHTMLString ].
-	^'<!DOCTYPE html><html><h1>',
+	header := '<style>background-color: #red</style>'.
+	^'<!DOCTYPE html><html><head>',
+	header,
+	'</head><body><h1>',
 	theClass name,
 	'</h1><h3>Supclass :</h3>',
 	superClass name,
@@ -13,4 +16,4 @@ asHTMLString
 	instV,
 	'<h3>Methods :</h3>',
 	selectorsA,
-	'</html>'
+	'</body></html>'
