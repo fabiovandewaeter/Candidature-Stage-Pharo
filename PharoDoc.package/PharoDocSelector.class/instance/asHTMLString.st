@@ -1,3 +1,9 @@
 accessing
 asHTMLString
-	^'<h4>method name :',selectorName,'</h4><h6>its senders :</h6><ul>',(sendersArray do: [:each | '<li>',each name,'</li>']) asString,'</ul>'
+	| sendersA |
+	sendersA := sendersArray inject: '' into: [ :concat :elem | concat,'<li>',elem name,'</li>' ].
+	^'<h4>method name :',
+	selectorName,
+	'</h4><h6>its senders :</h6><ul>',
+	sendersA,
+	'</ul>'
