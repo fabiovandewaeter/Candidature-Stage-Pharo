@@ -1,9 +1,6 @@
 accessing
-asHTMLString
-	| subC instV selectorsA header |
-	subC := subClasses inject: '' into: [ :concat :elem | concat,'<li>', elem name,'</li>' ].
-	instV := instVariables inject: '' into: [ :concat :elem | concat,'<li>', elem asHTMLString,'</li>' ].
-	selectorsA := selectorsArray inject: '' into: [ :concat :elem | concat,'<li>', elem asHTMLString,'</li>' ].
+printHtmlOn: aStream
+	|  header |
 	header := '<style>
 		body {color: #353833;
 			font-family: ''DejaVu Sans'', Arial, Helvetica, sans-serif;
@@ -20,29 +17,29 @@ asHTMLString
  			margin: 0 0 6px -8px;
   			padding: 7px 5px}
 	</style>'.
-	^'<!DOCTYPE html><html><head>',
-	header,
-	'</head>
+	aStream nextPutAll: '<!DOCTYPE html><html><head>';
+	nextPutAll: header;
+	nextPutAll: '</head>
 		<body>
 			<div class="header">
-				<span style=''font-weight:bold''>Package ', theClass package name,'</span>
-				<h2 style=''color:#2c4557;font-size:18px''>Class ', theClass name,'</h2>
-				<h3>Superclass : ', superClass name,'</h3>
+				<span style=''font-weight:bold''>Package '; nextPutAll: theClass package name; nextPutAll: '</span>
+				<h2 style=''color:#2c4557;font-size:18px''>Class '; nextPutAll: theClass name; nextPutAll: '</h2>
+				<h3>Superclass : '; nextPutAll: superClass name; nextPutAll: '</h3>
 			</div>
 			<hr>
 			<div class="content">
 				<div id=''subclasses''>
 					<h3>Subclasses</h3>
-					<ul>',subC,'</ul>
+					<ul>'. (subClasses do: [ :elem | aStream nextPutAll: '<li>'; nextPutAll: elem name; nextPutAll: '</li>' ]). aStream nextPutAll: '</ul>
 				</div>
 				<div id=''instancesVariables''>
 					<h3>Instances variables</h3>
-					<ul class=''specials''>',instV,'</ul>',
-				'</div>
+					<ul class=''specials''>'. (instVariables do: [ :elem | elem printHtmlOn: aStream ]). aStream nextPutAll: '</ul>
+				</div>
 				<div id=''methods''>
-					<h3>Methods</h3>',
-					'<ul class=''specials''>',selectorsA,'</ul>',
-				'</div>
+					<h3>Methods</h3>
+					<ul class=''specials''>'. (selectorsArray do: [ :elem | elem printHtmlOn: aStream ]). aStream nextPutAll: '</ul>
+				</div>
 			</div>
 		</body>
 	</html>'
