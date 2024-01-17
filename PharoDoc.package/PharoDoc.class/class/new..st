@@ -1,6 +1,6 @@
 instance creation
 new: aPackageName
-	| aPackage newClasses |
+	| aPackage |
 	aPackage := RPackageOrganizer default packageNamed: aPackageName.
 	^self new
 	thePackage: aPackage;
