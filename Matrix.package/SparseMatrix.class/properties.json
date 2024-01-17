@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "FabioVandewaeter 1/14/2024 20:44",
+	"commentStamp" : "fabiovandewaeter 1/17/2024 14:27",
 	"super" : "Matrix",
-	"category" : "Matrix",
+	"category" : "Matrix-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
