@@ -107,13 +107,16 @@ Les classes suivantes se trouvent dans le package PharoDoc :
 
 ### Exemples
 La création de la documentation avec la classe `PharoDoc` peut se faire de deux manières différentes :
+
 1) **En créant directement la documentation sous la forme de fichiers HTML à partir du constructeur de la classe :**
    
 On utilise pour cela le constructeur `createHtmlFrom: aPackage in: aDirectory`, qui prend le nom d'un package et le nom d'un dossier dans le home de l'ordinateur de l'utilisateur pour créer un dossier contenant la documentation du package sous la forme de pages HTML
 ```
-"Crée un dossier contenant les fichiers HTML du package PharoDoc dans le dossier ~/Desktop :"
+"Crée un dossier PharoDoc_PharoDoc contenant les fichiers HTML du package PharoDoc dans le dossier ~/Desktop :"
 doc := PharoDoc createHtmlFrom: #PharoDoc in: 'Desktop'.
 ```
+![pharodoc_screen1](https://github.com/fabiovandewaeter/Candidature-Stage-Pharo/assets/134401954/837056ce-59a2-4f14-965d-37568dc23f8d)
+
 
 2) **En créant une instance de la classe :**
 ```
@@ -121,9 +124,12 @@ doc := PharoDoc createHtmlFrom: #PharoDoc in: 'Desktop'.
 docMatrix := PharoDoc new: #Matrix.
 docMatrix.
 
-"Crée un dossier contenant les fichiers HTML du package Matrix dans le dossier ~/Desktop :"
+"Crée un dossier PharoDoc_Matrix contenant les fichiers HTML du package Matrix dans le dossier ~/Desktop :"
 docMatrix createHtmlIn: 'Desktop'.
 ```
+
+![pharodoc_screen2](https://github.com/fabiovandewaeter/Candidature-Stage-Pharo/assets/134401954/dda08565-6d21-4acb-988d-5a6117926f76)
+
 
 ### Tests
 Comme les méthodes de ces classes consistent simplement à appeler des méthodes fournies par défaut avec l'image Pharo, pour obtenir des informations, je n'ai pas recréé de tests pour ces méthodes
