@@ -38,7 +38,7 @@ printHtmlOn: aStream
 				</div>
 				<div id=''methods''>
 					<h3>Methods</h3>
-					<ul class=''specials''>'. (selectorsArray do: [ :elem | elem printHtmlOn: aStream ]). aStream nextPutAll: '</ul>
+					<ul class=''specials''>'. (methodsArray do: [ :elem | elem printHtmlOn: aStream ]). aStream nextPutAll: '</ul>
 				</div>
 			</div>
 		</body>

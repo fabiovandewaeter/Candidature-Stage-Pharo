@@ -10,7 +10,7 @@
 		"superClass",
 		"subClasses",
 		"instVariables",
-		"selectorsArray"
+		"methodsArray"
 	],
 	"name" : "PharoDocClass",
 	"type" : "normal"

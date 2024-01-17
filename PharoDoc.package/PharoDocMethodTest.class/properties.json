@@ -8,6 +8,6 @@
 	"instvars" : [
 		"selector"
 	],
-	"name" : "PharoDocSelectorTest",
+	"name" : "PharoDocMethodTest",
 	"type" : "normal"
 }

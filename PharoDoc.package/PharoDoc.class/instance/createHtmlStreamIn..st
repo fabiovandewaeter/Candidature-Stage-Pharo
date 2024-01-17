@@ -1,5 +1,5 @@
 accessing
-createHtmlInStream: aDirectory
+createHtmlStreamIn: aDirectory
 	| dir aStream |
 	dir := FileLocator home / (aDirectory,'/PharoDoc_',thePackage name).
 	dir ensureCreateDirectory.

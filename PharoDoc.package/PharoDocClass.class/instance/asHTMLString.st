@@ -3,7 +3,7 @@ asHTMLString
 	| subC instV selectorsA header |
 	subC := subClasses inject: '' into: [ :concat :elem | concat,'<li>', elem name,'</li>' ].
 	instV := instVariables inject: '' into: [ :concat :elem | concat,'<li>', elem asHTMLString,'</li>' ].
-	selectorsA := selectorsArray inject: '' into: [ :concat :elem | concat,'<li>', elem asHTMLString,'</li>' ].
+	selectorsA := methodsArray inject: '' into: [ :concat :elem | concat,'<li>', elem asHTMLString,'</li>' ].
 	header := '<style>
 		body {color: #353833;
 			font-family: ''DejaVu Sans'', Arial, Helvetica, sans-serif;

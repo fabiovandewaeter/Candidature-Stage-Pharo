@@ -1,7 +1,7 @@
 accessing
 printOn: aStream
 	aStream
-		nextPutAll: 'selector : ',selectorName ;
+		nextPutAll: 'selector : ', methodName;
 		cr;
 		nextPutAll: 'senders : ';
 		cr.
