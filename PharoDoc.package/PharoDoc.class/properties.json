@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "fabiovandewaeter 1/17/2024 11:29",
+	"commentStamp" : "fabiovandewaeter 1/17/2024 14:43",
 	"super" : "Object",
-	"category" : "PharoDoc",
+	"category" : "PharoDoc-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

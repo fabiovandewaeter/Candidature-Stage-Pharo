@@ -1,3 +1,0 @@
-accessing
-selectorsThatReference: selectorsArray
-	selectorsThatReference := selectorsArray
