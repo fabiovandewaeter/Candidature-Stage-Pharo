@@ -5,6 +5,8 @@ Fabio Vandewaeter, L3 informatique option renforcé recherche
 ## Version utilisée
 J'ai utilisé l'image Pharo 11.0 - 64bit(stable) en vérifiant le bon fonctionnement du code sur les VM Windows x86_64, Linux x86_64 et MacOs arm64, et j'ai fait les commits sur ce dépôt Github grâce à l'outil Iceberg de Pharo
 
+Pour cloner ce dépôt à partir d'une nouvelle image Pharo je commence par le cloner localement grâce à la commande `git` du terminal, puis je l'importe avec Iceberg et je charge les 2 packages
+
 ## Exercice 1
 ### Consigne
 Créer un programme qui permet d’encoder une matrice creuse https://www.geeksforgeeks.org/sparse-matrix-representation/ à partir d’une matrice sous sa forme traditionnelle. Vous utiliserez la méthode qui utilise des tableaux. Ce programme doit créer la représentation de la matrice creuse à partir de sa représentation traditionnelle sous forme de tableau de tableaux, et inversement, créer la représentation traditionnelle à partir de la représentation en matrice creuse.
