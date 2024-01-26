@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "AbstractMatrixTest",
+	"super" : "TestCase",
 	"category" : "Matrix-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SparseMatrixTest",
+	"instvars" : [
+		"matrix"
+	],
+	"name" : "AbstractMatrixTest",
 	"type" : "normal"
 }

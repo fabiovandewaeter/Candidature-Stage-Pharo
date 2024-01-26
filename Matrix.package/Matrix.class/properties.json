@@ -1,15 +1,11 @@
 {
-	"commentStamp" : "fabiovandewaeter 1/17/2024 14:27",
-	"super" : "Object",
+	"commentStamp" : "fabiovandewaeter 1/26/2024 21:30",
+	"super" : "AbstractMatrix",
 	"category" : "Matrix-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"rows",
-		"columns",
-		"values"
-	],
+	"instvars" : [ ],
 	"name" : "Matrix",
 	"type" : "normal"
 }

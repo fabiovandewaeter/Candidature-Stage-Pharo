@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "fabiovandewaeter 1/17/2024 14:27",
-	"super" : "Matrix",
+	"super" : "AbstractMatrix",
 	"category" : "Matrix-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],

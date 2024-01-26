@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "fabiovandewaeter 1/26/2024 21:29",
+	"super" : "Object",
+	"category" : "Matrix-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rows",
+		"columns",
+		"values"
+	],
+	"name" : "AbstractMatrix",
+	"type" : "normal"
+}

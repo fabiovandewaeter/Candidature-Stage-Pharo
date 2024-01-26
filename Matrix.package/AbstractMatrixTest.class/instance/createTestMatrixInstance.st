@@ -1,0 +1,3 @@
+tests
+createTestMatrixInstance
+	self subclassResponsibility
