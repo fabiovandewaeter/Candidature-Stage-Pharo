@@ -5,6 +5,6 @@ at: aRow at: aColumn put: aValue
 		[ :index | (rowsArray at: index) = aRow ifTrue:
 			[(columnsArray at: index) = aColumn ifTrue:
 				[aValue = 0 ifTrue: [rowsArray removeAt: index. columnsArray removeAt: index. values removeAt: index] ifFalse: [values at: index put: aValue].^self]]].
-	(aRow <= rows) & (aColumn <= columns) ifTrue:
+	(aRow <= rows) & (aColumn <= columns) & (aRow >= 1) & (aColumn >= 1) ifTrue:
 		[aValue ~= 0 ifTrue: [rowsArray add: aRow. columnsArray add: aColumn. values add: aValue]]
 		ifFalse: [SubscriptOutOfBounds signal]
